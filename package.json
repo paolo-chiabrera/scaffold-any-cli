@@ -1,0 +1,27 @@
+{
+  "name": "scaffold-any-cli",
+  "version": "1.0.0",
+  "main": "bin/scaffold-any.js",
+  "repository": "https://github.com/paolo-chiabrera/scaffold-any-cli.git",
+  "author": "Paolo Chiabrera <paolo.chiabrera@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "sa": "bin/scaffold-any.js",
+    "scaffold-any": "bin/scaffold-any.js"
+  },
+  "scripts": {
+    "lint": "eslint --fix **/*.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.13.0",
+    "jsonfile": "^4.0.0",
+    "replace": "^0.3.0",
+    "shelljs": "^0.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
